@@ -1315,9 +1315,9 @@ input, select, textarea {
         border-radius: 50%;
         /*margin: 0 auto;*/
         opacity: 0;
-        transition: opacity 1s ease-in-out;
-        -moz-transition: opacity 1s ease-in-out;
-        -webkit-transition: opacity 1s ease-in-out;
+        transition: opacity 4s ease-in-out;
+        -moz-transition: opacity 4s ease-in-out;
+        -webkit-transition: opacity 4s ease-in-out;
       }
 
 

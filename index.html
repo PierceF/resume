@@ -764,7 +764,7 @@ i {
   const avatar = document.querySelector('.avatar');
   const span = document.querySelector('.fa-gem')
   const header = document.querySelector('#header')
-  header.addEventListener('mouseover', () => {
+  header.addEventListener('transitionend', () => {
     avatar.classList.add('avatar-opacity')
     span.classList.remove('fa-gem');
   });
