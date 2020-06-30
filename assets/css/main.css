@@ -1162,7 +1162,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bg.jpg");
+			background-image: url("../../images/brain.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1302,9 +1302,24 @@ input, select, textarea {
 			border-radius: 100%;
 		}
 
-			#header .logo .icon:before {
+			/*#header .logo .icon:before {
 				font-size: 2rem;
-			}
+			}*/
+
+      #header .logo .icon:before {
+        font-size: 2rem;
+      }
+
+      .avatar {
+        width: 5.2rem;
+        border-radius: 50%;
+        /*margin: 0 auto;*/
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+        -moz-transition: opacity 1s ease-in-out;
+        -webkit-transition: opacity 1s ease-in-out;
+      }
+
 
 		#header .content {
 			border-style: solid;
@@ -1450,9 +1465,14 @@ input, select, textarea {
 				line-height: 4.75rem;
 			}
 
-				#header .logo .icon:before {
+				/*#header .logo .icon:before {
 					font-size: 1.75rem;
-				}
+				}*/
+        .avatar {
+          width: 4.62rem;
+          border-radius: 50%;
+          /*margin: 0 auto;*/
+        }
 
 			#header .content .inner {
 				padding: 2.5rem 1rem;
@@ -1663,3 +1683,15 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+.avatar-opacity {
+  opacity: 1;
+}
+
+.custom {
+  margin: 0;
+}
+    /*.avatar {
+      width: 5.5rem;
+      border-radius: 50%;
+    }*/

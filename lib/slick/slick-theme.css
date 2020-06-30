@@ -219,7 +219,7 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
 }
 
 .project-card-cover-img {
-  border-radius: 20px;
+  border-radius: 5px;
   object-fit: cover;
 }
 .project-card-title {
